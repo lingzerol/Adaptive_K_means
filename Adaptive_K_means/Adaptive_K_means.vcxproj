@@ -59,19 +59,16 @@
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    <Import Project="..\..\Image_interactive_segment\Image_interactive_segment\opencv.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    <Import Project="..\..\Image_interactive_segment\Image_interactive_segment\opencv.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="..\..\opencv and eigen debug.props" />
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    <Import Project="..\..\Image_interactive_segment\Image_interactive_segment\opencv.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    <Import Project="..\..\Image_interactive_segment\Image_interactive_segment\opencv.props" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
@@ -110,7 +107,7 @@
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>D:\Programe Files\Opencv\opencv-3.4.2\build\include;D:\Programe Files\Opencv\opencv-3.4.2\build\include\opencv2;D:\Programe Files\Opencv\opencv-3.4.2\build\include\opencv;D:\Programe Files\Matlab\R2018b\extern\include;D:\Programe Files\Matlab\extern\include\win64</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Programe Files\Eigen 3.3.7\Eigen;D:\Programe Files\Eigen 3.3.7;D:\Programe Files\Opencv\opencv-3.4.2\build\include;D:\Programe Files\Opencv\opencv-3.4.2\build\include\opencv2;D:\Programe Files\Opencv\opencv-3.4.2\build\include\opencv;D:\Programe Files\Matlab\R2018b\extern\include;D:\Programe Files\Matlab\extern\include\win64</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -149,7 +146,7 @@
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>D:\Programe Files\Opencv\opencv-3.4.2\build\include;D:\Programe Files\Opencv\opencv-3.4.2\build\include\opencv2;D:\Programe Files\Opencv\opencv-3.4.2\build\include\opencv;D:\Programe Files\Matlab\R2018b\extern\include;D:\Programe Files\Matlab\extern\include\win64</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Programe Files\Eigen 3.3.7\Eigen;D:\Programe Files\Eigen 3.3.7;D:\Programe Files\Opencv\opencv-3.4.2\build\include;D:\Programe Files\Opencv\opencv-3.4.2\build\include\opencv2;D:\Programe Files\Opencv\opencv-3.4.2\build\include\opencv;D:\Programe Files\Matlab\R2018b\extern\include;D:\Programe Files\Matlab\extern\include\win64</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
